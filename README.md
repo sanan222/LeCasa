@@ -43,8 +43,6 @@ The latest RoboCasa depends on the master branch of robosuite. If you want the l
 
 ---
 
-### 4. Troubleshooting
-
 If you encounter issues with `numpy` or `numba`, try installing via conda:
 
 ```bash
@@ -53,7 +51,7 @@ conda install -c numba numba=0.56.4 -y
 
 ---
 
-### 5. Download assets and set up macros
+Download assets and set up macros
 
 ```bash
 python robocasa/scripts/download_kitchen_assets.py   # (~5GB download)
@@ -62,14 +60,14 @@ python robocasa/scripts/setup_macros.py
 
 ---
 
-### 6. Install LeRobot
+### 4. Install LeRobot
 ```bash
 pip install lerobot
 ```
 
 ---
 
-## Data Collection
+## Running simulation
 
 To start data collection:
 
